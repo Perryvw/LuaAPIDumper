@@ -1,18 +1,19 @@
-"_G"
+"_G" : 
 {
     "rawget" : "No description",
     "SendToConsole" : "void SendToConsole(string)\n Send a string to the console as a client command",
     "BeginScriptDebug" : "No description",
-    "_PublishedHelp"
+    "_PublishedHelp" : 
     {
     },
-    "APIDumper"
+    "APIDumper" : 
     {
         "Init" : "No description",
+        "DumpCons" : "No description",
         "Dump" : "No description"
     },
     "UTIL_MessageTextAll_WithContext" : "void UTIL_MessageTextAll_WithContext(string, int, int, int, int, handle)\n Sends colored text to all clients. (Valid context keys: player_id, value, team_id)",
-    "bit"
+    "bit" : 
     {
         "rol" : "No description",
         "rshift" : "No description",
@@ -31,7 +32,7 @@
     "CreateEffect" : "bool CreateEffect(handle)\n Pass table - Inputs: entity, effect",
     "RotationDelta" : "QAngle RotationDelta(QAngle, QAngle)\n Find the delta between two QAngles.",
     "tonumber" : "No description",
-    "CDOTABaseAbility"
+    "CDOTABaseAbility" : 
     {
         "GetAnimationIgnoresModelScale" : "bool GetAnimationIgnoresModelScale()\n ",
         "GetAbilityIndex" : "int GetAbilityIndex()\n ",
@@ -147,7 +148,7 @@
     },
     "UTIL_ResetMessageTextAll" : "void UTIL_ResetMessageTextAll()\n Clear all message text from all clients.",
     "cvar_getf" : "float cvar_getf(string)\n Gets the value of the given cvar, as a float.",
-    "debug"
+    "debug" : 
     {
         "setupvalue" : "No description",
         "getregistry" : "No description",
@@ -170,34 +171,35 @@
     "RemoveSpawnGroupFilterProxy" : "void RemoveSpawnGroupFilterProxy(string)\n Remove the C proxy for a script-based spawn group filter",
     "__VScriptServerDebugHook" : "No description",
     "DumpSpawnGroupEntityFilters" : "No description",
-    "EntityUtils"
+    "EntityUtils" : 
     {
         "GetClassFieldType" : "No description",
         "GetRootScriptClass" : "No description"
     },
-    "PlayerResource"
+    "dumpObjectCons" : "No description",
+    "PlayerResource" : 
     {
     },
     "VectorToAngles" : "QAngle VectorToAngles(Vector)\n Get Qangles (with no roll) for a Vector.",
-    "debugoverlay"
+    "debugoverlay" : 
     {
     },
-    "CScriptPrecacheContext"
+    "CScriptPrecacheContext" : 
     {
         "IsNull" : "No description",
         "GetValue" : "table GetValue(string)\n Reads a spawn key",
         "AddResource" : "void AddResource(string)\n Precaches a specific resource"
     },
     "dumpObjectFunc" : "No description",
-    "CDOTAVoteSystem"
+    "CDOTAVoteSystem" : 
     {
         "IsNull" : "No description",
         "StartVote" : "void StartVote(handle)\n Starts a vote, based upon a table of parameters"
     },
-    "GameRules"
+    "GameRules" : 
     {
     },
-    "CDOTAGamerules"
+    "CDOTAGamerules" : 
     {
         "SetPostGameTime" : "void SetPostGameTime(float)\n Sets the amount of time players have between the game ending and the server disconnecting them.",
         "State_Get" : "<unknown> State_Get()\n Get the current Gamerules state",
@@ -248,10 +250,10 @@
         "SetRuneMinimapIconScale" : "void SetRuneMinimapIconScale(float)\n (flMinimapRuneIconScale) - Scale the rune icons on the minimap."
     },
     "h" : "No description",
-    "c"
+    "c" : 
     {
         "describe_R" : "No description",
-        "__initprops__"
+        "__initprops__" : 
         {
         },
         "inspect" : "No description",
@@ -259,13 +261,13 @@
         "__getclass__" : "No description",
         "__instanceof__" : "No description",
         "constructor" : "No description",
-        "Specification"
+        "Specification" : 
         {
         }
     },
-    "g_reloadState"
+    "g_reloadState" : 
     {
-        "coroutine"
+        "coroutine" : 
         {
             "wrap" : "No description",
             "yield" : "No description",
@@ -274,14 +276,14 @@
             "running" : "No description",
             "create" : "No description"
         },
-        "package"
+        "package" : 
         {
-            "preload"
+            "preload" : 
             {
             },
-            "loaded"
+            "loaded" : 
             {
-                "io"
+                "io" : 
                 {
                     "input" : "No description",
                     "tmpfile" : "No description",
@@ -295,7 +297,7 @@
                     "type" : "No description",
                     "lines" : "No description"
                 },
-                "math"
+                "math" : 
                 {
                     "ceil" : "No description",
                     "tan" : "No description",
@@ -327,7 +329,7 @@
                     "asin" : "No description",
                     "rad" : "No description"
                 },
-                "string"
+                "string" : 
                 {
                     "format" : "No description",
                     "find" : "No description",
@@ -345,7 +347,7 @@
                     "gfind" : "No description",
                     "sub" : "No description"
                 },
-                "table"
+                "table" : 
                 {
                     "sort" : "No description",
                     "foreach" : "No description",
@@ -360,7 +362,7 @@
             "seeall" : "No description",
             "loadlib" : "No description",
             "searchpath" : "No description",
-            "loaders"
+            "loaders" : 
             {
                 "1" : "No description",
                 "2" : "No description"
@@ -368,7 +370,7 @@
         }
     },
     "type" : "No description",
-    "CMarkupVolumeTagged"
+    "CMarkupVolumeTagged" : 
     {
         "IsNull" : "No description",
         "HasTag" : "bool HasTag(string)\n Does this volume have the given tag."
@@ -377,43 +379,43 @@
     "GetFunctionSignature" : "No description",
     "VectorLerp" : "No description",
     "ScriptFunctionHelp" : "No description",
-    "GridNav"
+    "GridNav" : 
     {
     },
     "Say" : "void Say(handle, string, bool)\n Have Entity say string, and teamOnly or not",
-    "ScriptDebugWatches"
+    "ScriptDebugWatches" : 
     {
     },
     "DebugDrawText" : "void DebugDrawText(Vector, string, bool, float)\n Draw text in 3d (origin, text, bViewCheck, duration)",
-    "EntityClassNameOverrides"
+    "EntityClassNameOverrides" : 
     {
     },
-    "EntityLinkClasses"
+    "EntityLinkClasses" : 
     {
     },
     "_sourceline" : "No description",
-    "EntityMixins"
+    "EntityMixins" : 
     {
-        "EnableDisable"
+        "EnableDisable" : 
         {
             "Enable" : "No description",
             "Spawn" : "No description",
             "Disable" : "No description",
             "InstallMixin" : "No description",
-            "Specification"
+            "Specification" : 
             {
-                "meta"
+                "meta" : 
                 {
-                    "enabled"
+                    "enabled" : 
                     {
                     }
                 },
-                "inputs"
+                "inputs" : 
                 {
-                    "Enable"
+                    "Enable" : 
                     {
                     },
-                    "Disable"
+                    "Disable" : 
                     {
                     }
                 }
@@ -429,22 +431,22 @@
     "assert" : "No description",
     "EmitSoundOnClient" : "void EmitSoundOnClient(string, handle)\n Play named sound only on the client for the passed in player",
     "_DeepPrintMetaTable" : "No description",
-    "ParticleEffectControlPoints"
+    "ParticleEffectControlPoints" : 
     {
         "__getbase__" : "No description",
         "__getclass__" : "No description",
-        "__initprops__"
+        "__initprops__" : 
         {
         },
         "__instanceof__" : "No description"
     },
     "Merge" : "No description",
     "max" : "No description",
-    "ProjectileManager"
+    "ProjectileManager" : 
     {
     },
     "min" : "No description",
-    "CEntityInstance"
+    "CEntityInstance" : 
     {
         "GetEntityIndex" : "int GetEntityIndex()\n ",
         "DisconnectRedirectedOutput" : "void DisconnectRedirectedOutput(string, string, handle)\n Removes a connected script function from an I/O event on the passed entity.",
@@ -481,7 +483,7 @@
     "RegisterSpawnGroupEntityFilter" : "No description",
     "SendFrostyPointsMessageToGC" : "void SendFrostyPointsMessageToGC(handle)\n ",
     "FrameTime" : "float FrameTime()\n Get the time spent on the server in the last frame",
-    "CInfoData"
+    "CInfoData" : 
     {
         "QueryString" : "string QueryString(utlstringtoken, string)\n Query string data for this key",
         "QueryInt" : "int QueryInt(utlstringtoken, int)\n Query int data for this key",
@@ -499,7 +501,7 @@
     "ScriptDebugClearTraces" : "No description",
     "ScriptDebugRemoveTrace" : "No description",
     "ScriptDebugAddTrace" : "No description",
-    "CNativeOutputs"
+    "CNativeOutputs" : 
     {
         "Init" : "void Init(int)\n Initialize with number of outputs",
         "IsNull" : "No description",
@@ -510,7 +512,7 @@
     "ScriptDebugRemoveWatchPattern" : "No description",
     "ScriptDebugAddWatchPattern" : "No description",
     "ScriptDebugRemoveWatches" : "No description",
-    "CDOTA_Item_DataDriven"
+    "CDOTA_Item_DataDriven" : 
     {
         "IsNull" : "No description",
         "ApplyDataDrivenModifier" : "void ApplyDataDrivenModifier(handle, handle, string, handle)\n Applies a data driven modifier to the target"
@@ -521,25 +523,25 @@
     "ScriptDebugAddWatch" : "No description",
     "loadfile" : "No description",
     "RemapValClamped" : "No description",
-    "ScriptDebugTraces"
+    "ScriptDebugTraces" : 
     {
     },
     "VectorDistanceSq" : "No description",
     "ExecuteOrderFromTable" : "void ExecuteOrderFromTable(handle)\n Issue an order from a script table",
-    "ScriptDebugTextFilters"
+    "ScriptDebugTextFilters" : 
     {
     },
-    "ScriptDebugDefaultWatchColor"
+    "ScriptDebugDefaultWatchColor" : 
     {
     },
-    "CDesc"
+    "CDesc" : 
     {
-        "CPhysicsComponent"
+        "CPhysicsComponent" : 
         {
             "IsNull" : "No description",
             "ExpensiveInstantRayCast" : "bool ExpensiveInstantRayCast(Vector, Vector, handle)\n Do an instant (i.e. blocking) Ray Cast. Will do a handle/queue version later. Dont plan to use this for real!"
         },
-        "CPointTemplate"
+        "CPointTemplate" : 
         {
             "GetSpawnedEntities" : "handle GetSpawnedEntities()\n GetSpawnedEntities() : Get the list of the most recent spawned entities",
             "ForceSpawn" : "void ForceSpawn()\n ForceSpawn() : Spawns all of the entities the point_template is pointing at.",
@@ -547,7 +549,7 @@
             "SetSpawnCallback" : "void SetSpawnCallback(handle, handle)\n SetSpawnCallback( hCallbackFunc, hCallbackScope, hCallbackData ) : Set a callback for when the template spawns entities. The spawned entities will be passed in as an array.",
             "DeleteCreatedSpawnGroups" : "void DeleteCreatedSpawnGroups()\n DeleteCreatedSpawnGroups() : Deletes any spawn groups that this point_template has spawned. Note: The point_template will not be deleted by this."
         },
-        "CDOTA_Item"
+        "CDOTA_Item" : 
         {
             "GetInitialCharges" : "int GetInitialCharges()\n Get the initial number of charges this item has.",
             "GetShareability" : "int GetShareability()\n ",
@@ -566,7 +568,7 @@
             "StacksWithOtherOwners" : "bool StacksWithOtherOwners()\n ",
             "SetStacksWithOtherOwners" : "void SetStacksWithOtherOwners(bool)\n "
         },
-        "CBodyComponent"
+        "CBodyComponent" : 
         {
             "SetAnimation" : "void SetAnimation(string)\n Pass string for the animation to play on this model",
             "SetVelocity" : "void SetVelocity(Vector)\n ",
@@ -582,7 +584,7 @@
             "SequenceDuration" : "float SequenceDuration(string)\n Returns the duration in seconds of the specified sequence",
             "GetSequence" : "<unknown> GetSequence()\n Returns the active sequence\n "
         },
-        "CBaseAnimating"
+        "CBaseAnimating" : 
         {
             "GetAttachmentAngles" : "Vector GetAttachmentAngles(int)\n Get the attachement id's angles as a p,y,r vector.",
             "IsSequenceFinished" : "bool IsSequenceFinished()\n Ask whether the main sequence is done playing.",
@@ -593,7 +595,7 @@
             "GetAttachmentOrigin" : "Vector GetAttachmentOrigin(int)\n Get the attachement id's origin vector.",
             "SetBodygroup" : "void SetBodygroup(int, int)\n Sets a bodygroup."
         },
-        "CDOTAPlayer"
+        "CDOTAPlayer" : 
         {
             "GetControlledRPGUnit" : "handle GetControlledRPGUnit()\n Get the RPG unit this player controls.",
             "SetKillCamUnit" : "void SetKillCamUnit(handle)\n Set the kill cam unit for this hero.",
@@ -603,13 +605,13 @@
             "SetMusicStatus" : "void SetMusicStatus(int, float)\n (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.",
             "GetPlayerID" : "int GetPlayerID()\n Get the player's official PlayerID; notably is -1 when the player isn't yet on a team."
         },
-        "CBaseCombatCharacter"
+        "CBaseCombatCharacter" : 
         {
             "IsNull" : "No description",
             "GetEquippedWeapons" : "table GetEquippedWeapons()\n GetEquippedWeapons() : Returns an array of all the equipped weapons",
             "GetWeaponCount" : "int GetWeaponCount()\n GetWeaponCount() : Gets the number of weapons currently equipped"
         },
-        "ProjectileManager"
+        "ProjectileManager" : 
         {
             "DestroyLinearProjectile" : "void DestroyLinearProjectile(int)\n Destroys the linear projectile matching the argument ID",
             "ProjectileDodge" : "void ProjectileDodge(handle)\n Makes the specified unit dodge projectiles",
@@ -617,19 +619,19 @@
             "CreateLinearProjectile" : "int CreateLinearProjectile(handle)\n Creates a linear projectile and returns the projectile ID",
             "CreateTrackingProjectile" : "void CreateTrackingProjectile(handle)\n Creates a tracking projectile"
         },
-        "CBaseTrigger"
+        "CBaseTrigger" : 
         {
             "Enable" : "void Enable()\n Enable the trigger",
             "IsTouching" : "bool IsTouching(handle)\n Checks whether the passed entity is touching the trigger.",
             "IsNull" : "No description",
             "Disable" : "void Disable()\n Disable's the trigger"
         },
-        "CDOTA_Ability_DataDriven"
+        "CDOTA_Ability_DataDriven" : 
         {
             "IsNull" : "No description",
             "ApplyDataDrivenModifier" : "void ApplyDataDrivenModifier(handle, handle, string, handle)\n Applies a data driven modifier to the target"
         },
-        "CEnvEntityMaker"
+        "CEnvEntityMaker" : 
         {
             "SpawnEntityAtNamedEntityOrigin" : "void SpawnEntityAtNamedEntityOrigin(string)\n Create an entity at the location of a named entity",
             "SpawnEntityAtLocation" : "void SpawnEntityAtLocation(Vector, Vector)\n Create an entity at a specified location and orientaton, orientation is Euler angle in degrees (pitch, yaw, roll)",
@@ -637,7 +639,7 @@
             "SpawnEntityAtEntityOrigin" : "void SpawnEntityAtEntityOrigin(handle)\n Create an entity at the location of a specified entity instance",
             "SpawnEntity" : "void SpawnEntity()\n Create an entity at the location of the maker"
         },
-        "CDOTA_BaseNPC_Creature"
+        "CDOTA_BaseNPC_Creature" : 
         {
             "SetHPRegenGain" : "void SetHPRegenGain(float)\n Set the hit points regen gained per level on this creature.",
             "SetDisableResistanceGain" : "void SetDisableResistanceGain(float)\n Set the disable resistance gained per level on this creature.",
@@ -657,19 +659,19 @@
             "SetManaGain" : "void SetManaGain(int)\n Set the mana points gained per level on this creature.",
             "SetBountyGain" : "void SetBountyGain(int)\n Set the bounty gold gained per level on this creature."
         },
-        "CDOTA_Item_Physical"
+        "CDOTA_Item_Physical" : 
         {
             "GetContainedItem" : "handle GetContainedItem()\n Returned the contained item.",
             "IsNull" : "No description",
             "GetCreationTime" : "float GetCreationTime()\n Returns the game time when this item was created in the world",
             "SetContainedItem" : "void SetContainedItem(handle)\n Set the contained item."
         },
-        "CDOTA_Ability_Nian_Roar"
+        "CDOTA_Ability_Nian_Roar" : 
         {
             "IsNull" : "No description",
             "GetCastCount" : "int GetCastCount()\n Number of times Nian has used the roar"
         },
-        "CDOTA_Unit_Nian"
+        "CDOTA_Unit_Nian" : 
         {
             "GetTail" : "handle GetTail()\n Is the Nian's tail broken?",
             "GetHorn" : "handle GetHorn()\n Is the Nian horn?",
@@ -677,7 +679,7 @@
             "IsHornAlive" : "bool IsHornAlive()\n Is the Nian's horn broken?",
             "IsTailAlive" : "bool IsTailAlive()\n Is the Nian's tail broken?"
         },
-        "CRPG_Unit"
+        "CRPG_Unit" : 
         {
             "SetSightConeAngle" : "void SetSightConeAngle(float)\n ( flAngleDegrees ) - sets angle in which the unit can see things up to sight range",
             "GetMaxStamina" : "float GetMaxStamina()\n () - returns maximum stamina amount.",
@@ -722,24 +724,24 @@
             "SetMovementTargetPosition" : "void SetMovementTargetPosition(Vector, float)\n ( vecTargetPosition, flTargetRange ) - Try to move this unit to the given range from the target point.",
             "ClearMovementTarget" : "void ClearMovementTarget()\n () - Clear any movement target entity/position."
         },
-        "CScriptKeyValues"
+        "CScriptKeyValues" : 
         {
             "IsNull" : "No description",
             "GetValue" : "table GetValue(string)\n Reads a spawn key"
         },
-        "CScriptHeroList"
+        "CScriptHeroList" : 
         {
             "GetHero" : "handle GetHero(int)\n Get the Nth hero in the Hero List",
             "GetAllHeroes" : "table GetAllHeroes()\n Returns all the heroes in the world",
             "IsNull" : "No description",
             "GetHeroCount" : "int GetHeroCount()\n Returns the number of heroes in the world"
         },
-        "CBasePlayer"
+        "CBasePlayer" : 
         {
             "IsNull" : "No description",
             "IsNoclipping" : "bool IsNoclipping()\n Returns true if the player is in noclip mode."
         },
-        "CDOTA_MapTree"
+        "CDOTA_MapTree" : 
         {
             "CutDownRegrowAfter" : "void CutDownRegrowAfter(float, int)\n Cuts down this tree. Parameters: float flRegrowAfter (-1 = never regrow), int nTeamNumberKnownTo (-1 = invalid team)",
             "IsStanding" : "bool IsStanding()\n Returns true if the tree is standing, false if it has been cut down",
@@ -747,7 +749,7 @@
             "GrowBack" : "void GrowBack()\n Grows back the tree if it was cut down.",
             "CutDown" : "void CutDown(int)\n Cuts down this tree. Parameters: int nTeamNumberKnownTo (-1 = invalid team)"
         },
-        "CEnvProjectedTexture"
+        "CEnvProjectedTexture" : 
         {
             "SetVolumetrics" : "void SetVolumetrics(bool, float, float, int, float)\n Turn on/off light volumetrics: bool bOn, float flIntensity, float flNoise, int nPlanes, float flPlaneOffset",
             "SetLinearAttenuation" : "void SetLinearAttenuation(float)\n Set light linear attenuation value",
@@ -756,32 +758,32 @@
             "SetNearRange" : "void SetNearRange(float)\n Set light minimum range",
             "SetFarRange" : "void SetFarRange(float)\n Set light maximum range"
         },
-        "CDOTA_Ability_Nian_Leap"
+        "CDOTA_Ability_Nian_Leap" : 
         {
             "IsNull" : "No description",
             "SetPlaybackRate" : "void SetPlaybackRate(float)\n Override playbackrate"
         },
-        "CLogicScript"
+        "CLogicScript" : 
         {
             "IsNull" : "No description"
         },
-        "CDOTA_Ability_Animation_Attack"
+        "CDOTA_Ability_Animation_Attack" : 
         {
             "IsNull" : "No description",
             "SetPlaybackRate" : "void SetPlaybackRate(float)\n Override playbackrate"
         },
-        "CDOTA_Ability_Animation_TailSpin"
+        "CDOTA_Ability_Animation_TailSpin" : 
         {
             "IsNull" : "No description",
             "SetPlaybackRate" : "void SetPlaybackRate(float)\n Override playbackrate"
         },
-        "CPhysicsProp"
+        "CPhysicsProp" : 
         {
             "IsNull" : "No description",
             "DisableMotion" : "void DisableMotion()\n Enable motion for the prop",
             "EnableMotion" : "void EnableMotion()\n Enable motion for the prop"
         },
-        "Convars"
+        "Convars" : 
         {
             "GetFloat" : "table GetFloat(string)\n GetFloat(name) : returns the convar as a float. May return null if no such convar.",
             "GetStr" : "table GetStr(string)\n GetStr(name) : returns the convar as a string. May return null if no such convar.",
@@ -797,13 +799,13 @@
             "IsNull" : "No description",
             "GetBool" : "table GetBool(string)\n GetBool(name) : returns the convar as a boolean flag."
         },
-        "CDOTA_SimpleObstruction"
+        "CDOTA_SimpleObstruction" : 
         {
             "IsNull" : "No description",
             "SetEnabled" : "void SetEnabled(bool, bool)\n Enable or disable the obstruction",
             "IsEnabled" : "bool IsEnabled()\n Returns whether the obstruction is currently active"
         },
-        "CToneMapControllerComponent"
+        "CToneMapControllerComponent" : 
         {
             "GetMaxExposure" : "float GetMaxExposure()\n Gets max exposure for this tonemap controller",
             "SetMinExposure" : "void SetMinExposure(float)\n Sets min exposure for this tonemap controller",
@@ -813,7 +815,7 @@
             "IsNull" : "No description",
             "GetMinExposure" : "float GetMinExposure()\n Gets min exposure for this tonemap controller"
         },
-        "CDOTABaseGameMode"
+        "CDOTABaseGameMode" : 
         {
             "SetCustomHeroMaxLevel" : "void SetCustomHeroMaxLevel(int)\n Allows definition of the max level heroes can achieve (default is 25).",
             "SetBuybackEnabled" : "void SetBuybackEnabled(bool)\n Enables or disables buyback completely.",
@@ -855,7 +857,7 @@
             "SetTopBarTeamValuesVisible" : "void SetTopBarTeamValuesVisible(bool)\n Turning on/off the team values on the top game bar.",
             "SetCameraDistanceOverride" : "void SetCameraDistanceOverride(float)\n Set a different camera distance; dota default is 1134."
         },
-        "CDebugOverlayScriptHelper"
+        "CDebugOverlayScriptHelper" : 
         {
             "VertArrow" : "void VertArrow(Vector, Vector, float, int, int, int, int, bool, float)\n Draws a vertical arrow. Specify endpoints in world space.",
             "Sphere" : "void Sphere(Vector, float, int, int, int, int, bool, float)\n Draws a wireframe sphere. Specify center in world space.",
@@ -893,7 +895,7 @@
             "PushDebugOverlayScope" : "void PushDebugOverlayScope(utlstringtoken)\n Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch.",
             "Text" : "void Text(Vector, int, string, float, int, int, int, int, float)\n Draws 2D text. Specify origin in world space."
         },
-        "CDOTA_PlayerResource"
+        "CDOTA_PlayerResource" : 
         {
             "GetDenies" : "int GetDenies(int)\n ",
             "GetNthCourierForTeam" : "handle GetNthCourierForTeam(int, int)\n ",
@@ -1024,7 +1026,7 @@
             "GetLastHitStreak" : "int GetLastHitStreak(int)\n ",
             "GetTimeOfLastDeath" : "float GetTimeOfLastDeath(int)\n "
         },
-        "CDotaQuest"
+        "CDotaQuest" : 
         {
             "RemoveSubquest" : "void RemoveSubquest(handle)\n Remove a subquest from this quest",
             "SetTextReplaceValue" : "void SetTextReplaceValue(int, int)\n Set a quest value",
@@ -1035,13 +1037,13 @@
             "GetSubquestByName" : "handle GetSubquestByName(string)\n Finds a subquest from this quest by name",
             "CompleteQuest" : "void CompleteQuest()\n Mark this quest complete"
         },
-        "CBaseFlex"
+        "CBaseFlex" : 
         {
             "IsNull" : "No description",
             "GetCurrentScene" : "handle GetCurrentScene()\n Returns the instance of the oldest active scene entity (if any).",
             "GetSceneByIndex" : "handle GetSceneByIndex(int)\n Returns the instance of the scene entity at the specified index."
         },
-        "CSceneEntity"
+        "CSceneEntity" : 
         {
             "IsPaused" : "bool IsPaused()\n If this scene is currently paused.",
             "IsPlayingBack" : "bool IsPlayingBack()\n If this scene is currently playing.",
@@ -1055,7 +1057,7 @@
             "EstimateLength" : "float EstimateLength()\n Returns length of this scene in seconds.",
             "IsNull" : "No description"
         },
-        "CScriptParticleManager"
+        "CScriptParticleManager" : 
         {
             "SetParticleAlwaysSimulate" : "void SetParticleAlwaysSimulate(int)\n ",
             "SetParticleControl" : "void SetParticleControl(int, int, Vector)\n Set the control point data for a control on a particle effect",
@@ -1067,7 +1069,7 @@
             "IsNull" : "No description",
             "SetParticleControlEnt" : "void SetParticleControlEnt(int, int, handle, int, string, Vector, bool)\n "
         },
-        "CDOTA_BaseNPC_Hero"
+        "CDOTA_BaseNPC_Hero" : 
         {
             "GetPhysicalArmorValue" : "float GetPhysicalArmorValue()\n Hero armor is affected by attributes.",
             "GetDenies" : "int GetDenies()\n Value is stored in PlayerResource.",
@@ -1159,7 +1161,7 @@
             "IncrementDenies" : "void IncrementDenies()\n Value is stored in PlayerResource.",
             "GetDeaths" : "int GetDeaths()\n Value is stored in PlayerResource."
         },
-        "CDOTA_BaseNPC"
+        "CDOTA_BaseNPC" : 
         {
             "ForceKill" : "void ForceKill(bool)\n Kill this unit immediately.",
             "CanEntityBeSeenByMyTeam" : "bool CanEntityBeSeenByMyTeam(handle)\n Check FoW to see if an entity is visible.",
@@ -1402,13 +1404,13 @@
             "CastAbilityOnTarget" : "void CastAbilityOnTarget(handle, handle, int)\n Cast an ability on a target entity.",
             "SetAcquisitionRange" : "void SetAcquisitionRange(int)\n "
         },
-        "CDOTA_BaseNPC_Building"
+        "CDOTA_BaseNPC_Building" : 
         {
             "IsNull" : "No description",
             "SetInvulnCount" : "void SetInvulnCount(int)\n Set the invulnerability counter of this building.",
             "GetInvulnCount" : "int GetInvulnCount()\n Get the invulnerability count for a building."
         },
-        "CEntities"
+        "CEntities" : 
         {
             "First" : "handle First()\n Begin an iteration over the list of entities",
             "FindAllByModel" : "table FindAllByModel(string)\n Find entities by model name.",
@@ -1432,12 +1434,12 @@
             "CreateByClassname" : "handle CreateByClassname(string)\n Creates an entity by classname",
             "FindByModelWithin" : "handle FindByModelWithin(handle, string, Vector, float)\n Find entities by model name within a radius. Pass 'null' to start an iteration, or reference to a previously found entity to continue a search"
         },
-        "CDOTA_Ability_Nian_Dive"
+        "CDOTA_Ability_Nian_Dive" : 
         {
             "IsNull" : "No description",
             "SetPlaybackRate" : "void SetPlaybackRate(float)\n Override playbackrate"
         },
-        "GridNav"
+        "GridNav" : 
         {
             "GridPosToWorldCenterX" : "float GridPosToWorldCenterX(int)\n Get the X position of the center of a given X index",
             "WorldToGridPosY" : "int WorldToGridPosY(float)\n Get the Y index of a given world Y position",
@@ -1449,14 +1451,14 @@
             "GridPosToWorldCenterY" : "float GridPosToWorldCenterY(int)\n Get the Y position of the center of a given Y index",
             "RegrowAllTrees" : "void RegrowAllTrees()\n Causes all trees in the map to regrow"
         },
-        "CDotaSubquestBase"
+        "CDotaSubquestBase" : 
         {
             "SetTextReplaceString" : "void SetTextReplaceString(string)\n Set the text replace string for this subquest",
             "IsNull" : "No description",
             "CompleteSubquest" : "void CompleteSubquest()\n Mark this subquest complete",
             "SetTextReplaceValue" : "void SetTextReplaceValue(int, int)\n Set a subquest value"
         },
-        "CBaseEntity"
+        "CBaseEntity" : 
         {
             "GetTeamNumber" : "int GetTeamNumber()\n Get the team number of this entity.",
             "GetChildren" : "handle GetChildren()\n Get the entities parented to this entity.",
@@ -1526,7 +1528,7 @@
             "GetBounds" : "table GetBounds()\n Get a table containing the 'Mins' & 'Maxs' vector bounds, centered on object.",
             "Kill" : "void Kill()\n "
         },
-        "CEntityScriptFramework"
+        "CEntityScriptFramework" : 
         {
             "IsNull" : "No description"
         }
@@ -1535,14 +1537,14 @@
     "ConnectOutputs" : "No description",
     "Dynamic_Wrap" : "No description",
     "__RegisterGameEventListeners" : "No description",
-    "NativeFunctions"
+    "NativeFunctions" : 
     {
     },
     "__ReplaceClosures" : "No description",
     "EntFireByHandle" : "No description",
     "EntFire" : "No description",
     "UniqueString" : "No description",
-    "vlua"
+    "vlua" : 
     {
         "find" : "No description",
         "rawdelete" : "No description",
@@ -1573,10 +1575,10 @@
     "UnloadSpawnGroupByHandle" : "void UnloadSpawnGroupByHandle(int)\n Unload a spawn group by handle",
     "SetOpvarFloatAll" : "void SetOpvarFloatAll(string, string, string, float)\n Sets an opvar value for all players",
     "DebugDrawSphere" : "void DebugDrawSphere(Vector, Vector, float, float, bool, float)\n Draw a debug sphere (center, vRgb, a, rad, ztest, duration)",
-    "HeroList"
+    "HeroList" : 
     {
     },
-    "ParticleManager"
+    "ParticleManager" : 
     {
     },
     "rawset" : "No description",
@@ -1593,15 +1595,13 @@
     "ShowMessage" : "void ShowMessage(string)\n Print a hud message on all clients",
     "CreateItemOnPositionSync" : "handle CreateItemOnPositionSync(Vector, handle)\n Create a physical item at a given location",
     "FireEntityIOInputVec" : "void FireEntityIOInputVec(ehandle, string, Vector)\n Fire Entity's Action Input with passed Vector - you own the memory",
-    "_deepprint_alreadyseen"
+    "_deepprint_alreadyseen" : 
     {
-        "1"
-        {
-        }
+        "1" : "No description"
     },
     "EndScriptDebug" : "No description",
     "instanceof" : "No description",
-    "doneObjs"
+    "doneObjs" : 
     {
     },
     "collectgarbage" : "No description",
@@ -1646,7 +1646,7 @@
     "GetWorldMinX" : "float GetWorldMinX()\n Gets the world's minimum X position.",
     "DebugDrawScreenTextLine" : "void DebugDrawScreenTextLine(float, float, int, string, int, int, int, int, float)\n Draw text with a line offset (x, y, lineOffset, text, r, g, b, a, duration)",
     "GetMaxOutputDelay" : "float GetMaxOutputDelay(ehandle, string)\n Get the longest delay for all events attached to an output",
-    "Convars"
+    "Convars" : 
     {
     },
     "rr_GetResponseTargets" : "handle rr_GetResponseTargets()\n Retrieve a table of all available expresser targets, in the form { name : handle, name: handle }.",
@@ -1665,7 +1665,7 @@
     "ScriptDebugDrawWatches" : "No description",
     "AppendToLogFile" : "void AppendToLogFile(string, string)\n Appends a string to a log file on the server",
     "DebugDrawBoxDirection" : "void DebugDrawBoxDirection(Vector, Vector, Vector, Vector, Vector, float, float)\n Draw a debug forward box (cent, min, max, forward, vRgb, a, duration)",
-    "EntityFramework"
+    "EntityFramework" : 
     {
         "PrecacheResource" : "No description",
         "DispatchPrecache" : "No description",
@@ -1680,10 +1680,10 @@
         "CreateEntity" : "No description",
         "CreateCppClassProxy" : "No description",
         "InstallClass_BuildCompleteSpecification" : "No description",
-        "InstallClassMixinKeysToIgnore"
+        "InstallClassMixinKeysToIgnore" : 
         {
         },
-        "InstallClassVisits"
+        "InstallClassVisits" : 
         {
         },
         "InstallClasses" : "No description",
@@ -1693,7 +1693,7 @@
         "DispatchUpdateOnRemove" : "No description",
         "DispatchInput" : "No description",
         "InstallClass" : "No description",
-        "InputValueConverters"
+        "InputValueConverters" : 
         {
             "number" : "No description",
             "string" : "No description",
@@ -1701,7 +1701,7 @@
             "integer" : "No description"
         },
         "InstallClass_HandleEntityIO" : "No description",
-        "InstallClassMixinKeysToMakeUnique"
+        "InstallClassMixinKeysToMakeUnique" : 
         {
         },
         "GetScriptClassForDesignerName" : "No description",
@@ -1714,7 +1714,7 @@
         "GetClassNameOverride" : "No description"
     },
     "StopSoundEvent" : "void StopSoundEvent(string, handle)\n Stops a sound event",
-    "TimeOfDay"
+    "TimeOfDay" : 
     {
         "IsDay" : "No description",
         "Float" : "No description",
@@ -1755,14 +1755,14 @@
     "DebugBreak" : "void DebugBreak()\n Breaks in the debugger",
     "DoIncludeScript" : "bool DoIncludeScript(string, handle)\n Execute a script (internal)",
     "SetQuestName" : "void SetQuestName(string)\n Set the current quest name.",
-    "Entities"
+    "Entities" : 
     {
     },
     "GetFrameCount" : "int GetFrameCount()\n Returns the engines current frame count",
     "CreateHeroForPlayer" : "handle CreateHeroForPlayer(string, handle)\n Creates a DOTA hero by its dota_npc_units.txt name and sets it as the given player's controlled hero",
     "FireEntityIOInputNameOnly" : "void FireEntityIOInputNameOnly(ehandle, string)\n Fire Entity's Action Input w/no data",
     "SpawnEntityListFromTableSynchronous" : "handle SpawnEntityListFromTableSynchronous(handle)\n Synchronously spawn an entity group from a list of spawn tables.",
-    "ScriptDebugText"
+    "ScriptDebugText" : 
     {
     },
     "error" : "No description",
@@ -1789,15 +1789,15 @@
     "PrecacheItemByNameAsync" : "void PrecacheItemByNameAsync(string, handle)\n Asynchronously precaches a DOTA item by its dota_npc_items.txt name, provides a callback when it's finished.",
     "rr_AddDecisionRule" : "bool rr_AddDecisionRule(handle)\n Add a rule to the decision database.",
     "rr_CommitAIResponse" : "bool rr_CommitAIResponse(handle, handle)\n Commit the result of QueryBestResponse back to the given entity to play. Call with params (entity, airesponse)",
-    "g_SpawnGroupEntityFilters"
+    "g_SpawnGroupEntityFilters" : 
     {
     },
-    "VoteSystem"
+    "VoteSystem" : 
     {
     },
     "PrintLinkedConsoleMessage" : "void PrintLinkedConsoleMessage(string, string)\n Print a console message with a linked console command",
     "ScriptDebugRemoveTextFilter" : "No description",
-    "EntityDesignerNameToClassname"
+    "EntityDesignerNameToClassname" : 
     {
     },
     "loadstring" : "No description",
@@ -1814,12 +1814,12 @@
     "StartSoundEvent" : "void StartSoundEvent(string, handle)\n Start a sound event",
     "RandomFloat" : "float RandomFloat(float, float)\n Get a random float within a range",
     "FireGameEventLocal" : "void FireGameEventLocal(string, handle)\n Fire a game event without broadcasting to the client.",
-    "EntityClasses"
+    "EntityClasses" : 
     {
-        "CEntityInstance"
+        "CEntityInstance" : 
         {
             "describe_R" : "No description",
-            "__initprops__"
+            "__initprops__" : 
             {
             },
             "inspect" : "No description",
@@ -1827,7 +1827,7 @@
             "__getclass__" : "No description",
             "__instanceof__" : "No description",
             "constructor" : "No description",
-            "Specification"
+            "Specification" : 
             {
             }
         }
