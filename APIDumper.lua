@@ -54,7 +54,7 @@ function dumpObjectFunc( obj, name, indent )
 	doneObjs[obj] = true
 
 	--open the JSON object
-	print(indentStr..'"'..name..'"')
+	print(indentStr..'"'..name..'" : ')
 	print(indentStr.."{")
 
 	--loop over all fields
@@ -89,9 +89,6 @@ function dumpObjectCons( obj, name, indent )
 		indentStr = indentStr..'    '
 	end
 
-	--keep track of what we did to prevent infinite cycles
-	doneObjs[obj] = true
-
 	--open the JSON object
 	print(indentStr..'"'..name..'"')
 	print(indentStr.."{")
@@ -99,9 +96,9 @@ function dumpObjectCons( obj, name, indent )
 	--loop over all fields
 	for k,v in pairs(obj) do
 		
-		if type(v) == 'number' then
+		if type(v) == 'number' or type(v) == 'string' then
 			--print constants
-			print(indentStr..'    "'..k..'",')
+			print(indentStr..'    "'..k..'" : "'..v..'",')
 		end
 
 	end
